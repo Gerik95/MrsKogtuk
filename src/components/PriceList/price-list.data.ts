@@ -50,12 +50,6 @@ export const gelNails = {
       description: '(Манікюр і однотонне покриття входить у вартість нарощення та корекції)',
     },
     {
-      name: 'Зняття нарощених нігтів/перенарощення',
-      subName: false,
-      price: '150',
-      description: null,
-    },
-    {
       name: 'Зняття без покриття',
       subName: false,
       price: '100',

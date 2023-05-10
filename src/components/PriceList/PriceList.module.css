@@ -64,6 +64,13 @@
     background-size: 100% auto;
   }
 
+  .description {
+    color: #9C9C9C;
+    font-size: 13px;
+    padding-left: 15px;
+    width: 250px;
+  }
+
   .ownerImage {
     display: flex;
     justify-content: center;
@@ -78,5 +85,12 @@
 
   .dataText {
     font-size: 14px;
+  }
+
+  .description {
+    color: #9C9C9C;
+    font-size: 13px;
+    padding-left: 10px;
+    width: 250px;
   }
 }

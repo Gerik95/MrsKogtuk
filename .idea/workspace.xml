@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba7269c-17e6-4fe3-9395-d93fbba06b62" name="Changes" comment="" />
+    <list default="true" id="bba7269c-17e6-4fe3-9395-d93fbba06b62" name="Changes" comment="add metadata">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/portfolio.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/portfolio.data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PriceList/PriceList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PriceList/PriceList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PriceList/price-list.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PriceList/price-list.data.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,8 +54,18 @@
       <recent name="C:\Web\mrs.kogtuk_react\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -63,6 +78,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,11 +95,23 @@
       <workItem from="1682959773900" duration="4476000" />
       <workItem from="1682967622309" duration="1000" />
       <workItem from="1683452815517" duration="37000" />
-      <workItem from="1683628332691" duration="20379000" />
+      <workItem from="1683628332691" duration="22757000" />
     </task>
+    <task id="LOCAL-00001" summary="add metadata">
+      <created>1683750565081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683750565081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add metadata" />
+    <option name="LAST_COMMIT_MESSAGE" value="add metadata" />
   </component>
 </project>

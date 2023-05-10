@@ -14,6 +14,7 @@ import classic2 from './images/classic/IMG_1179.png';
 import classic3 from './images/classic/IMG_1180.png';
 import classic4 from './images/classic/IMG_1181.png';
 import classic5 from './images/classic/IMG_1124.jpg';
+import classic6 from './images/classic/photo_2023-05-10_21-12-30.jpg';
 
 import design1 from './images/design/IMG_1132.jpg';
 import design2 from './images/design/IMG_1133.jpg';
@@ -171,6 +172,14 @@ export const imagesData = () => {
       {
         original: classic5,
         thumbnail: classic5,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: classic6,
+        thumbnail: classic6,
         thumbnailWidth: 'auto',
         originalWidth: 'auto',
         thumbnailHeight: 100,
