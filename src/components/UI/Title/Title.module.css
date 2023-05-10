@@ -1,0 +1,19 @@
+.title {
+  font-weight: 700;
+  color: #BFBFBF;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 68px;
+  color: #BFBFBF;
+  margin-bottom: 30px;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.h3 {
+  font-size: 28px;
+}

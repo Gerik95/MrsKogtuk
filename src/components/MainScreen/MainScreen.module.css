@@ -1,0 +1,141 @@
+.main {
+  position: relative;
+  margin-left: 60px;
+  height: 100vh;
+  background-image: url("./main-screen.png");
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.bigLogo {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 100px;
+}
+
+.mainWrap {
+
+}
+
+.image {
+  height: 100%;
+}
+
+.description {
+  padding-left: 40px;
+  padding-top: 200px;
+}
+
+.descriptionItem {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  margin-bottom: 40px;
+
+  color: #9C9C9C;
+}
+
+.advantages {
+  display: flex;
+  column-gap: 34px;
+  margin-top: 110px;
+}
+
+.advantagesMobile {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  bottom: 200px;
+  left: -10px;
+}
+
+.advantagesItemMobile {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 0 20px 20px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 140px;
+  padding: 5px 26px;
+
+  color: #BFBFBF;
+}
+
+@media screen and (max-width: 1600px) {
+  .main {
+    background-size: 70% auto;
+  }
+
+  .descriptionItem {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    padding-top: 130px;
+  }
+
+  .bigLogo {
+    width: 350px;
+  }
+
+  .bigLogo img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bigLogo {
+    width: 250px;
+    left: 55%;
+  }
+
+  .advantages {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .bigLogo {
+    width: 350px;
+  }
+
+  .description {
+    padding-top: 450px;
+  }
+
+  .main {
+    margin: 0;
+    background-size: cover;
+  }
+
+  .descriptionItem {
+    font-size: 28px;
+  }
+
+  .advantages {
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    background-image: url("./images/background-mobile.png");
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  .description {
+    padding-top: 130px;
+  }
+
+  .descriptionItem {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}

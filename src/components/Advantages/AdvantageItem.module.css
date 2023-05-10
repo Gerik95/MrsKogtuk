@@ -1,0 +1,47 @@
+.advantages {
+  position: relative;
+  width: 220px;
+}
+
+.advantages img {
+  width: 100%;
+}
+
+.label {
+  padding: 5px 25px;
+  background: rgba(217, 217, 217, 0.3);
+  position: absolute;
+  font-weight: 700;
+  color: #BFBFBF;
+}
+
+.safely {
+  left: 2px;
+  top: 100px;
+  border-radius: 0 10px 10px 0;
+}
+
+.sterile {
+  right: 2px;
+  top: 190px;
+  border-radius: 10px 0 0 10px;
+}
+
+.comfort {
+  left: 0;
+  top: 50px;
+  border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .advantages {
+    width: 200px;
+  }
+}
+

@@ -1,0 +1,29 @@
+.modalContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .85);
+  color: white;
+}
+
+.closeWrap {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.closeWrap .icon {
+  cursor: pointer;
+  color: white;
+  font-size: 36px;
+}
+
+.modalWrap {
+  /*padding: 50px;*/
+}

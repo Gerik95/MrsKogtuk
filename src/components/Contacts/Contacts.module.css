@@ -1,0 +1,47 @@
+.contacts {
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.contactsWrap {
+  margin-top: 85px;
+  display: flex;
+  column-gap: 125px;
+  justify-content: center;
+}
+
+.flower {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+.flowerLeft {
+  left: 0;
+}
+
+.flowerRight {
+  right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .contactsWrap {
+    position: relative;
+    z-index: 1;
+  }
+
+  .contactsWrap {
+    column-gap: 30px;
+  }
+
+  .flower {
+    position: absolute;
+    height: 70%;
+    top: initial;
+    bottom: 0;
+  }
+}

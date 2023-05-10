@@ -1,0 +1,18 @@
+.svg {
+
+}
+
+.svgFacebook:hover path {
+  fill: #3B5998;
+  transition: all .5s;
+}
+
+.svgInstagram:hover path {
+  fill: #D52471;
+  transition: all .5s;
+}
+
+.svgTelegram:hover path {
+  fill: #38AFE2;
+  transition: all .5s;
+}
