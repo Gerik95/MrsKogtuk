@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import logoImage from './logo.png';
 
-import { phoneIcon, portfolioIcon, priceIcon } from './icons';
+import { phoneIcon, portfolioIcon, priceIcon, calendarIcon } from './icons';
 
 import styles from './Header.module.css';
 import { HeaderProps } from './header.props';
@@ -24,6 +24,7 @@ const Header: React.FC<HeaderProps> = ({ scrollTop }) => {
         {( !isMobile ) && (
           <nav className={styles.navigation}>
             <NavLink path="price">Прайс-лист</NavLink>
+            <NavLink path="calendar">Календар</NavLink>
             <NavLink path="gallery">Портфоліо</NavLink>
             <NavLink path="contacts">Контакти</NavLink>
           </nav>
@@ -36,15 +37,21 @@ const Header: React.FC<HeaderProps> = ({ scrollTop }) => {
                 <p className={styles.mobileNavigationText}>Прайс-лист</p>
               </div>
             </NavLink>
+            <NavLink path="calendar">
+              <div className={styles.mobileNavigationItem}>
+                <img src={calendarIcon} alt="Calendar icon" width={35} height={35}/>
+                <p className={styles.mobileNavigationText}>Календар</p>
+              </div>
+            </NavLink>
             <NavLink path="gallery">
               <div className={styles.mobileNavigationItem}>
-                <img src={portfolioIcon} alt="Price icon" width={35} height={35}/>
+                <img src={portfolioIcon} alt="Portfolio icon" width={35} height={35}/>
                 <p className={styles.mobileNavigationText}>Портфоліо</p>
               </div>
             </NavLink>
             <NavLink path="contacts">
               <div className={styles.mobileNavigationItem}>
-                <img src={phoneIcon} alt="Price icon" width={35} height={35}/>
+                <img src={phoneIcon} alt="Phone icon" width={35} height={35}/>
                 <p className={styles.mobileNavigationText}>Контакти</p>
               </div>
             </NavLink>

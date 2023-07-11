@@ -7,6 +7,7 @@ import portfolioCardImage2 from './images/portfolio_2.png';
 import portfolioCardImage3 from './images/portfolio_3.png';
 import portfolioCardImage4 from './images/portfolio_4.png';
 import portfolioCardImage5 from './images/portfolio_5.png';
+import portfolioCardImage6 from './images/portfolio_6.png';
 
 import styles from './Portfolio.module.css';
 import { imagesData } from './portfolio.data';
@@ -37,6 +38,7 @@ const Portfolio = () => {
                        type="strengtheningGel"/>
         <PortfolioCard openModal={openModal} title="Укріплення гель" imageSrc={portfolioCardImage5} type="buildUp"/>
         <PortfolioCard openModal={openModal} title="Дизайн" imageSrc={portfolioCardImage3} type="design"/>
+        <PortfolioCard openModal={openModal} title="Педикюр" imageSrc={portfolioCardImage6} type="pedicure"/>
       </div>
 
       <Modal show={showModal} closeModal={closeModal}>
