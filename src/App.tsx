@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import PriceList from './components/PriceList/PriceList';
 import Description from './components/Description/Description';
 import Contacts from './components/Contacts/Contacts';
+import Calendar from './components/calendar/Calendar';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Description/>`
         <div className={styles.liner}></div>
         <PriceList/>
+        <div className={styles.liner}></div>
+        <Calendar/>
         <div className={styles.liner}></div>
         <Portfolio/>
         <div className={styles.liner}></div>

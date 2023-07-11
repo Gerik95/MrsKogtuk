@@ -4,11 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bba7269c-17e6-4fe3-9395-d93fbba06b62" name="Changes" comment="add metadata">
+    <list default="true" id="bba7269c-17e6-4fe3-9395-d93fbba06b62" name="Changes" comment="redacting pricelist">
+      <change afterPath="$PROJECT_DIR$/src/api/api.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/events.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/sideNavIcons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/icons/calendarIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/DeleteWindow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/ModalWindow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/SideNavButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/Calendar.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/CalendarCell.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/CalendarGrid.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/CalendarGridHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/CalendarHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/CalendarMonitor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/DayShow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/DurationSelector.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/EditEventComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/MonthDaysList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/containers/styled-components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/calendar/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Other.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Path.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/eventMapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/events.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/other.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/authSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/clientsSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/sideNavSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/slice.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/uiSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/button.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/calendar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/clientForm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/mobile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/styled.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styled/table.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/auth.type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/initialValues.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/ui.type.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Portfolio/portfolio.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/portfolio.data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PriceList/PriceList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PriceList/PriceList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PriceList/price-list.data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PriceList/price-list.data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +71,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -45,10 +105,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Web\mrs.kogtuk_react\public" />
       <recent name="C:\Web\mrs.kogtuk_react\src" />
+      <recent name="C:\Web\mrs.kogtuk_react\src\constants" />
+      <recent name="C:\Web\mrs.kogtuk_react\src\components\hooks" />
+      <recent name="C:\Web\mrs.kogtuk_react\src\assets" />
+      <recent name="C:\Web\mrs.kogtuk_react\src\components\UI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Web\mrs.kogtuk_react\src\components\Header\icons" />
+      <recent name="C:\Web\mrs.kogtuk_react\src\components\Portfolio\images\pedicure" />
       <recent name="C:\Web\mrs.kogtuk_react\src\components\Portfolio\images\build-up" />
       <recent name="C:\Web\mrs.kogtuk_react\src\components\Portfolio\images\strengthening-gel" />
       <recent name="C:\Web\mrs.kogtuk_react\src\assets" />
@@ -95,7 +160,14 @@
       <workItem from="1682959773900" duration="4476000" />
       <workItem from="1682967622309" duration="1000" />
       <workItem from="1683452815517" duration="37000" />
-      <workItem from="1683628332691" duration="22757000" />
+      <workItem from="1683628332691" duration="23045000" />
+      <workItem from="1683970925086" duration="26000" />
+      <workItem from="1685882017818" duration="823000" />
+      <workItem from="1686464304760" duration="2837000" />
+      <workItem from="1686468887588" duration="2051000" />
+      <workItem from="1687263190963" duration="5458000" />
+      <workItem from="1687346228471" duration="13242000" />
+      <workItem from="1688639074523" duration="6872000" />
     </task>
     <task id="LOCAL-00001" summary="add metadata">
       <created>1683750565081</created>
@@ -104,14 +176,33 @@
       <option name="project" value="LOCAL" />
       <updated>1683750565081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redacting pricelist">
+      <created>1683753131145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683753131145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="add metadata" />
+    <MESSAGE value="redacting pricelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="redacting pricelist" />
   </component>
 </project>

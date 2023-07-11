@@ -8,6 +8,14 @@ import buildUp7 from './images/build-up/IMG_1584.jpg';
 import buildUp8 from './images/build-up/IMG_1120.png';
 import buildUp9 from './images/build-up/IMG_1169.jpg';
 import buildUp10 from './images/build-up/IMG_1515.jpg';
+import buildUp11 from './images/build-up/pink-french.png';
+import buildUp12 from './images/build-up/pink-french1.png';
+import buildUp13 from './images/build-up/gel-nails-red.jpg';
+import buildUp14 from './images/build-up/lemon-french.jpg';
+import buildUp15 from './images/build-up/orange_gel.jpg';
+import buildUp16 from './images/build-up/white-gel.png';
+import buildUp17 from './images/build-up/macro-french.jpg';
+import buildUp18 from './images/build-up/french.jpg';
 
 import classic1 from './images/classic/IMG_1178.png';
 import classic2 from './images/classic/IMG_1179.png';
@@ -28,6 +36,7 @@ import design9 from './images/design/IMG_1586.png';
 import design10 from './images/design/IMG_7101.jpg';
 import design11 from './images/design/IMG_7102.jpg';
 import design12 from './images/design/IMG_7103.jpg';
+import design13 from './images/design/papaya-nails.png';
 
 import gel1 from './images/gel/IMG_1131.jpg';
 import gel2 from './images/gel/IMG_1156.png';
@@ -40,6 +49,8 @@ import gel8 from './images/gel/IMG_1574.png';
 import gel9 from './images/gel/IMG_1575.png';
 import gel10 from './images/gel/IMG_1584.png';
 import gel11 from './images/gel/IMG_1587.png';
+import gel12 from './images/gel/lemon-gel.jpg';
+import gel13 from './images/gel/short-nails.jpg';
 
 import strengtheningGel1 from './images/strengthening-gel/IMG_0670.jpg';
 import strengtheningGel2 from './images/strengthening-gel/image_2022-07-23_21-24-30.png';
@@ -49,6 +60,13 @@ import strengtheningGel5 from './images/strengthening-gel/IMG_1580.png';
 import strengtheningGel6 from './images/strengthening-gel/IMG_1583.png';
 import strengtheningGel7 from './images/strengthening-gel/IMG_1133.jpg';
 import strengtheningGel8 from './images/strengthening-gel/IMG_1579.png';
+
+import pedicure1 from './images/pedicure/IMG_3588.png';
+import pedicure2 from './images/pedicure/IMG_3917.jpg';
+import pedicure3 from './images/pedicure/base-pedicure.jpg';
+import pedicure4 from './images/pedicure/base-pedicure1.jpg';
+
+
 
 
 const originalHeight = 600;
@@ -130,6 +148,70 @@ export const imagesData = () => {
       {
         original: buildUp10,
         thumbnail: buildUp10,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp11,
+        thumbnail: buildUp11,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp12,
+        thumbnail: buildUp12,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp13,
+        thumbnail: buildUp13,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp14,
+        thumbnail: buildUp14,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp15,
+        thumbnail: buildUp15,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp16,
+        thumbnail: buildUp16,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp17,
+        thumbnail: buildUp17,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: buildUp18,
+        thumbnail: buildUp18,
         thumbnailWidth: 'auto',
         originalWidth: 'auto',
         thumbnailHeight: 100,
@@ -283,6 +365,14 @@ export const imagesData = () => {
         thumbnailHeight: 100,
         originalHeight: originalHeight
       },
+      {
+        original: design13,
+        thumbnail: design13,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
     ],
     gel: [
       {
@@ -373,6 +463,22 @@ export const imagesData = () => {
         thumbnailHeight: 100,
         originalHeight: originalHeight
       },
+      {
+        original: gel12,
+        thumbnail: gel12,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: gel13,
+        thumbnail: gel13,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
     ],
     strengtheningGel: [
       {
@@ -434,6 +540,40 @@ export const imagesData = () => {
       {
         original: strengtheningGel8,
         thumbnail: strengtheningGel8,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+    ],
+    pedicure: [
+      {
+        original: pedicure1,
+        thumbnail: pedicure1,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: pedicure2,
+        thumbnail: pedicure2,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: pedicure3,
+        thumbnail: pedicure3,
+        thumbnailWidth: 'auto',
+        originalWidth: 'auto',
+        thumbnailHeight: 100,
+        originalHeight: originalHeight
+      },
+      {
+        original: pedicure4,
+        thumbnail: pedicure4,
         thumbnailWidth: 'auto',
         originalWidth: 'auto',
         thumbnailHeight: 100,
